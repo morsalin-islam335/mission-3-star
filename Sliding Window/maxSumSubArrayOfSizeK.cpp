@@ -20,6 +20,28 @@ int bruteForceMethod(vector<int>v, int n, int k)
     }
     return maxSum;
 }
+
+
+int constantSlidingWindow(vector<int>v,int n,int k)
+{
+    int maxSum = 0;
+    for(int i = 0; i < k; i++)
+    {
+        maxSum += v[i];
+    }
+
+    int sum = maxSum;
+    int i = 1, j = k;
+    while(j < n)
+    {
+        sum += v[j]; // go to right side
+        sum -= v[i]; // deduct from left side
+        i ++; j ++;
+        maxSum = max(sum, maxSum);
+    }
+
+    return maxSum;
+}
 int main()
 {
     int n,k; cin >> n >>k;
@@ -29,7 +51,8 @@ int main()
         cin >> v[i];
     }
 
-    cout << bruteForceMethod(v,n,k);
+    // cout << bruteForceMethod(v,n,k);
+    cout << constantSlidingWindow(v,n,k);
 
     return 0;
     
