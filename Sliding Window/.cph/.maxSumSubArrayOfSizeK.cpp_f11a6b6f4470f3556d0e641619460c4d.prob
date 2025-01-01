@@ -1,0 +1,1 @@
+{"name":"Local: maxSumSubArrayOfSizeK","url":"c:\\Mission-3Star\\Sliding Window\\maxSumSubArrayOfSizeK.cpp","tests":[{"id":1735737214726,"input":"6\n3\n5 2 6 1 4 3","output":"13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Mission-3Star\\Sliding Window\\maxSumSubArrayOfSizeK.cpp","group":"local","local":true}
