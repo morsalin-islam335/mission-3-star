@@ -1,0 +1,1 @@
+{"name":"Local: problemB","url":"c:\\Mission-3Star\\January 8 168\\problemB.cpp","tests":[{"id":1736348830736,"input":"2\n5\n3 1 2 4 5\n4\n1 2 3 4","output":"1 0 0 1 1\n1 1 1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Mission-3Star\\January 8 168\\problemB.cpp","group":"local","local":true}
