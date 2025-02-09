@@ -10,30 +10,7 @@ int main()
         int i = 0, j = 1;
         while(i + 1 < s.length())
         
-        // {
-        //     // if(s[i] == s[j])
-        //     // {
-        //     //     if( i > 0){ // pointer ka picha nibo
-        //     //         s.erase(i,1);
-        //     //         // i --;
-        //     //         if(j < s.length())
-        //     //         {
-        //     //             s[j] = s[i];
-        //     //         }
-        //     //     }
-        //     //     else{
-        //     //         s.erase(i,1);
-        //     //         if(s.length() < j)
-        //     //         {
-        //     //             s[i] = s[j];
-        //     //         }
-        //     //     }
-        //     // }
-        //     // else{
-        //     //     i++;
-        //     //     j++;
-        //     // }
-        // }
+       
         {
 
 
@@ -46,10 +23,18 @@ int main()
                 if(s.length() == 2) s.erase(0);
                 else if( i == 0)
                 {
+
                     // go to right
+                    s.erase(0,1);
+                    s[1] = s[0];
                 }
                 else{
                     // go to left
+                    char tmp = s[i];
+                    s.erase(i,1);
+                    i --; j--;
+                    s[i] = tmp;
+
                 }
             }
             else{
@@ -59,7 +44,7 @@ int main()
             }
         }
         // cout << s.length() << "\n";
-        cout << s << "\n";
+        (s.length())? cout << s.length() << "\n": cout << 1 <<"\n";
         
     }
     return 0;
