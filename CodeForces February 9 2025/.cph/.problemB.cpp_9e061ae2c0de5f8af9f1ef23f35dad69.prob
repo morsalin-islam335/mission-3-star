@@ -1,0 +1,1 @@
+{"name":"Local: problemB","url":"c:\\Mission-3Star\\CodeForces February 9 2025\\problemB.cpp","tests":[{"id":1739113549618,"input":"5\nbaa\nskibidus\ncc\nohio\naaxa","output":"1\n8\n1\n4\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Mission-3Star\\CodeForces February 9 2025\\problemB.cpp","group":"local","local":true}
