@@ -1,0 +1,23 @@
+1. Time Complexity:
+Time complexity refers to the amount of time an algorithm takes to complete as a function of the input size. It is usually expressed using Big-O notation, which describes the upper bound of the algorithm's running time in the worst case.
+
+Big-O Notation: This expresses the worst-case scenario, showing how the runtime grows relative to the input size.
+O(1): Constant time, the runtime is independent of the input size.
+O(log n): Logarithmic time, the runtime grows slowly as the input size increases (e.g., binary search).
+O(n): Linear time, the runtime grows linearly with the input size.
+O(n log n): Log-linear time, common in efficient sorting algorithms like merge sort.
+O(n²): Quadratic time, common in algorithms like bubble sort.
+O(2^n): Exponential time, grows very fast and is often seen in recursive algorithms (e.g., solving the Tower of Hanoi).
+O(n!): Factorial time, typically found in algorithms that involve permutations.
+2. Space Complexity:
+Space complexity refers to the amount of memory or space an algorithm needs relative to the input size. It also uses Big-O notation to describe the worst-case space usage.
+
+Space complexity includes:
+
+Auxiliary Space: Extra space or temporary storage used by the algorithm (e.g., for recursion, arrays).
+Input Space: The space taken up by the input itself, which usually is not counted in auxiliary space complexity analysis.
+For example, sorting algorithms like:
+
+Merge Sort has a time complexity of O(n log n) and a space complexity of O(n) due to the extra arrays needed for merging.
+Quick Sort has an average time complexity of O(n log n) but a space complexity of O(log n) due to recursion (in its optimized form).
+Would you like to go through examples of algorithms and analyze their time and space complexities?
